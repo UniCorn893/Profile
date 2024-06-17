@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        background: linear-gradient(135deg, #aacee6, #313b3a);
+        color: #3d3b3b;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        min-height: 100vh; /* Ensure the body takes at least the height of the viewport */
+        position: relative;
+      }
+      .flex-cols {
+        display: flex;
+        flex-direction: column;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+      }
+      .circular_image {
+        display: flex;
+        justify-content: center;
+      }
+      .circular_image img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 10px solid transparent;
+      }
+      .quote-box {
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 20px;
+        border-radius: 10px;
+        margin: 20px;
+        width: 100%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      }
+      img {
+        width: 200px;
+        height: 300px;
+        margin: 20px;
+        border: 10px transparent;
+        border-image: linear-gradient(45deg, #195176, #424f4f) 1;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      }
+      h1 {
+            color: rgba(255, 255, 255, 0.753);
+            margin-bottom: 0px;
+            margin-right: 50px;
+            font-display: fallback;
+      }
+      nav {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 15px 20px;
+        border-radius: 10px;
+        box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+      }
+      nav ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+      }
+      nav li {
+        margin: 0 15px;
+      }
+      nav a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.2em;
+        padding: 10px 15px;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+        border: 2px transparent;
+      }
+      nav a:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+        color: #333;
+        border-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="circular_image">
+        <img
+          src="https://i.pinimg.com/474x/67/46/a6/6746a6b2f66b3f8925d7a490d286464c.jpg"
+          alt="Image"
+        />
+      </div>
+      <div class="flex-cols">
+        <h1>PRANJAL SINGH</h1>
+        <div class="quote-box">
+          <h3>INTRO</h3>
+          <p>
+            Hi there! I'm an AI enthusiast with a curious mind and a knack for problem-solving.  Fueled by endless cups of coffee, I love diving deep into complex challenges and crafting innovative solutions.  In my free time, I can often be found tinkering with data, trying to unlock its hidden secrets!  I'm excited to explore the potential of AI and its impact on the world. 
+          </p>
+        </div>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="Aboutme.html">ABOUT ME</a></li>
+        <li><a href="project.html">PROJECTS</a></li>
+        <li><a href="skill.html">SKILLS</a></li>
+        <li><a href="edu.html">EDUCATION</a></li>
+        <li><a href="achive.html">ACHIVEMENTS</a></li>
+        <li><a href="contactme.html">CONTACT ME</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            background: linear-gradient(135deg, #aacee6, #313b3a);
+            color: #f0f0f0;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            min-height: 200vh; /* Ensure the body takes at least the height of the viewport */
+            position: relative;
+        }
+
+        /* Styling header */
+        header {
+            position: top-center;
+            top: 0;
+            color: #fff;
+            padding: 20px;
+        }
+
+        nav {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 15px 20px;
+            border-radius: 10px;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+        }
+        nav ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        nav li {
+            margin: 0 15px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2em;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            border: 2px transparent;
+        }
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+            color: #333;
+            border-color: white;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: #000;
+            text-align: left;
+        }
+
+        .skills {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skill {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .skill::before {
+            content: "•";
+            color: #313b3a;
+            font-size: 1.5em;
+            margin-right: 10px;
+            line-height: 1;
+        }
+
+        .skill h2 {
+            margin: 0 0 10px;
+            font-size: 1.2em;
+        }
+
+        .skill p {
+            margin: 0;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SKILLS</h1>
+        <h2>Technical Skills</h2>
+        <ul class="skills">
+            <li class="skill">
+                <div>
+                    <h2>Machine Learning (ML)</h2>
+                    <p>Proficient in supervised and unsupervised learning algorithms (e.g., linear regression, decision trees, k-means clustering). Experience with libraries like TensorFlow, PyTorch, or scikit-learn.</p>
+                </div>
+            </li>
+            <li class="skill">
+                <div>
+                    <h2>Deep Learning</h2>
+                    <p>Understanding of deep neural networks (DNNs), convolutional neural networks (CNNs), and recurrent neural networks (RNNs). Familiarity with frameworks like Keras.</p>
+                </div>
+            </li>
+            <li class="skill">
+                <div>
+                    <h2>Programming</h2>
+                    <p>Strong foundation in programming languages like Python (essential for AI development) and potentially others relevant to your specific skillset (e.g., Java, C++).</p>
+                </div>
+            </li>
+        </ul>
+
+        <h2>Non-Technical Skills</h2>
+        <ul class="skills">
+            <li class="skill">
+                <div>
+                    <h2>Data Analysis</h2>
+                    <p>Skilled in data cleaning, manipulation, and visualization using tools like pandas and matplotlib.</p>
+                </div>
+            </li>
+            <li class="skill">
+                <div>
+                    <h2>Creative Problem Solving</h2>
+                    <p>Adept at approaching challenges from unconventional angles and developing innovative solutions.</p>
+                </div>
+            </li>
+            <li class="skill">
+                <div>
+                    <h2>Communication</h2>
+                    <p>Excellent written and verbal communication skills to clearly explain complex AI concepts to both technical and non-technical audiences.</p>
+                </div>
+            </li>
+            <li class="skill">
+                <div>
+                    <h2>Project Management</h2>
+                    <p>Experience in managing AI projects, including defining goals, setting deadlines, and overseeing the development process.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    
+    <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="Aboutme.html">ABOUT ME</a></li>
+          <li><a href="project.html">PROJECTS</a></li>
+          <li><a href="skill.html">SKILLS</a></li>
+          <li><a href="edu.html">EDUCATION</a></li>
+          <li><a href="achive.html">ACHIVEMENTS</a></li>
+          <li><a href="contactme.html">CONTACT ME</a></li>
+        </ul>
+      </nav>
+</body>
+</html>
